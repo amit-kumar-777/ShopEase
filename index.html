@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopEase</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <div class="announcement-bar">
+            <div class="truck-context">
+                <img src="./src/truck.svg" alt="Truck-icon">
+                <p>Free Shipping Orders Over $50</p>
+            </div>
+            <div class="announcement-context">
+                <ul>Help</ul>
+                <ul>|</ul>
+                <ul>Track Order</ul>
+                <ul>|</ul>
+                <ul>Contact</ul>
+            </div>
+        </div>
+
+
+        <nav class="nav-bar">
+            <!-- Logo -->
+            <div class="icon">
+                <img src="./src/shopping-cart-plus.svg" alt="">
+                <p>Shop<span>Ease</span></p>
+            </div>
+            <!-- Navigation links -->
+            <ul class="anchor">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <!-- Search and actions -->
+            <div class="search-bar">
+                <input class="input" name="text" placeholder="Search Products..." type="search">
+                <img src="./src/user.svg" alt="User account">
+                <div class="cart-icon">
+                    <img src="./src/shopping-cart-plus.svg" alt="Shopping cart">
+                    <span class="cart-count">2</span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="main-section">
+            <div class="hero-container">
+                <h1>Shop Smarter, Live Better</h1>
+                <p>Discover amazing products at unbeatable prices</p>
+                <button>Shop Now</button>
+            </div>
+        </div>
+
+        <div class="featured-section">
+
+            <div class="title-sort">
+                <h1>Featured Products</h1>
+                <details>
+                    <summary>Sort by:Popularity 🔽</summary>
+                    <ul>
+                        <li>Low to High</li>
+                        <li>High to Low</li>
+                    </ul>
+                </details>
+            </div>
+            <h2 class="tofy">Top Picks For You</h2>
+            <div class="category-filters">
+                <li class="category-type">All</li>
+                <li class="category-type">Electronics</li>
+                <li class="category-type">Fashion</li>
+                <li class="category-type">Home & Living</li>
+                <li class="category-type">Sports</li>
+                <li class="category-type">Beauty</li>
+            </div>
+
+            <div class="cards">
+                <div class="card">
+                    <img src="./src/Laptop-unsplash.jpg" alt="">
+                    <div class="card-content">
+                        <h2>Laptop Pro 14</h2>
+                        <h3>$799 <span class="span">$999</span></h3>
+                        <button class="cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./src/headphone-unsplash.jpg" alt="">
+                    <div class="card-content">
+                        <h2>Wireless HeadPhone</h2>
+                        <h3>$129</h3>
+                        <button class="cart">Add to Cart</button>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <img src="./src/watch-unsplash.jpg" alt="">
+                    <div class="card-content">
+                        <h2>Smart Watch</h2>
+                        <h3>$199</h3>
+                        <button class="cart">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./src/shoes-unsplash.jpg" alt="">
+                    <div class="card-content">
+                        <h2>Running Shoes</h2>
+                        <h3>$89 <span class="span">$199</span></h3>
+                        <button class="cart">Add to Cart</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <footer>
+            <nav class="pgn-11__nav" aria-label="Product pagination">
+                <button class="pgn-11__edge" type="button" disabled aria-label="Previous page">Previous</button>
+                <ol class="pgn-11__list">
+                    <li><button class="pgn-11__num" type="button" aria-current="page">1</button></li>
+                    <li><button class="pgn-11__num" type="button">2</button></li>
+                    <li><button class="pgn-11__num" type="button">3</button></li>
+                    <li aria-hidden="true" class="pgn-11__gap">…</li>
+                    <li><button class="pgn-11__num" type="button">24</button></li>
+                </ol>
+                <button class="pgn-11__edge" type="button" aria-label="Next page">Next</button>
+            </nav>
+        </footer>
+    </main>
+</body>
+
+</html>
